@@ -1,3 +1,4 @@
+@smokePack
 Feature: smoke pack- creating & editing organisation, creating and editing auth group, creating and editing person profile, creating and editing an action plan, creating and editing contracts,
   adding vehicles, adding trips
 

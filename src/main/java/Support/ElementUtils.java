@@ -91,12 +91,12 @@ public class ElementUtils {
                 driver = new ChromeDriver(options);
                 break;
             case "edge":
-                System.setProperty("webdriver.edge.driver", "C:\\Users\\Rajesh Gurrala\\IdeaProjects\\Transport2\\BrowserFiles\\MicrosoftWebDriver.exe");
+                System.setProperty("webdriver.edge.driver", "C:\\Users\\Rajesh Gurrala\\IdeaProjects\\FeatureFiles\\BrowserFiles\\MicrosoftWebDriver.exe");
                 WebDriverManager.edgedriver().setup();
                 driver = new EdgeDriver();
                 break;
             case "firefox":
-                System.setProperty("webdriver.gecko.driver", "C:\\Users\\Rajesh Gurrala\\IdeaProjects\\Transport2\\BrowserFiles\\geckodriver.exe");
+                System.setProperty("webdriver.gecko.driver", "C:\\Users\\Rajesh Gurrala\\IdeaProjects\\FeatureFiles\\BrowserFiles\\geckodriver.exe");
                 WebDriverManager.firefoxdriver().setup();
                 driver = new FirefoxDriver();
                 break;
