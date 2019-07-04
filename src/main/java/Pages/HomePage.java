@@ -31,7 +31,8 @@ public class HomePage {
         utils.clickBtn(By.xpath("//li[text()='" + organisationType + "']"));
         utils.sleep(1000);
         utils.clickBtn(By.xpath("//div[@id='select-Authorisation Group']"));
-        utils.actionsClick(By.xpath("//li[text()='" + authGroup + "']"));
+        utils.sleep(1000);
+        utils.javaScriptExecutorClick(By.xpath("//li[text()='" + authGroup + "']"));
         commonMethodsPage.clickSubmit();
     }
 

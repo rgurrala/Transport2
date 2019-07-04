@@ -1,4 +1,3 @@
-@smokePack
 Feature: smoke pack- creating & editing organisation, creating and editing auth group, creating and editing person profile, creating and editing an action plan, creating and editing contracts,
   adding vehicles, adding trips
 
@@ -20,11 +19,11 @@ Feature: smoke pack- creating & editing organisation, creating and editing auth 
     Then I should be able to add a person profile and assert its creation
     And I should be able to edit the created person profile and assert the changes
 
-  Scenario: as a super admin i should be able to create an action plan and assert the creation
-    Given I am logged in as a super admin
-    When i navigate to the magic search page and search & select a particular organization
-    Then I should be able to create an action plan and assert its creation
-    And I should be able to edit the created action plan and assert the changes
+#  Scenario: as a super admin i should be able to create an action plan and assert the creation
+#    Given I am logged in as a super admin
+#    When i navigate to the magic search page and search & select a particular organization
+#    Then I should be able to create an action plan and assert its creation
+#    And I should be able to edit the created action plan and assert the changes
 
   Scenario: as a super admin i should be able to add a vehicle and assert the creation
     Given I am logged in as a super admin
